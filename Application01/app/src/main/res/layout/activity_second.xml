@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <EditText
+        android:id="@+id/op1"
+        android:layout_width="205dp"
+        android:layout_height="wrap_content"
+        android:hint="输入第一个数据"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/op2"
+        android:layout_width="209dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/op1"
+        android:hint="输入第二个数据"
+        android:inputType="textPassword" />
+    <Button
+        android:id="@+id/bt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="确定"
+        android:layout_below="@+id/op2"/>
+
+
+</RelativeLayout>
