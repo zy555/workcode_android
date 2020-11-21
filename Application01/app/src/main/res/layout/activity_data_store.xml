@@ -4,36 +4,41 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     tools:context=".DataStoreActivity">
 
     <TextView
         android:id="@+id/data_store_tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="数据显示"
-        android:textSize="30sp"
-        />
+        android:text="数据显示"/>
+
     <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:id="@+id/save_bt"
+        android:text="保存"/>
+
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="存储"/>
-    <Button
         android:id="@+id/read_bt"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:text="读取"/>
+
     <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:id="@+id/create_bt"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="创建"/>
+        android:text="创建数据库"/>
+
     <Button
-        android:id="@+id/_bt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="创建"/>
+        android:id="@+id/add_bt"
+        android:text="添加数据"/>
 
-
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/search_bt"
+        android:text="查询数据"/>
 </LinearLayout>

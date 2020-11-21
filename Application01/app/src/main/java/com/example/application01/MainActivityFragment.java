@@ -15,7 +15,7 @@ public class MainActivityFragment extends AppCompatActivity implements View.OnCl
     protected void  onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fragment_test);
-        Button button=(Button)findViewById(R.id.Button);
+        Button button= findViewById(R.id.Button);
         button.setOnClickListener(this);
         replaceFragment(new RightTestFragment());
     }

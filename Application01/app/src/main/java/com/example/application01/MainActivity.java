@@ -33,11 +33,11 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        bt1=(Button)findViewById(R.id.bt1) ;
-        et1=(EditText)findViewById(R.id.et1);
+        bt1= findViewById(R.id.bt1);
+        et1= findViewById(R.id.et1);
         op1=findViewById(R.id.op1);
         op2=findViewById(R.id.op2);
-        progressBar=(ProgressBar)findViewById(R.id.pb1);
+        progressBar= findViewById(R.id.pb1);
         myList=findViewById(R.id.my_list);
         IntFruit();
         FruitAdapter adapter=new FruitAdapter(MainActivity.this,R.layout.item_layout,fruitList);
